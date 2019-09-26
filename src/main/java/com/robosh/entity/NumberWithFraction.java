@@ -1,6 +1,5 @@
-package com.robosh;
+package com.robosh.entity;
 
-import com.robosh.entity.Fraction;
 import lombok.Data;
 
 @Data
