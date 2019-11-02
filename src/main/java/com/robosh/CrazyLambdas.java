@@ -102,7 +102,7 @@ public class CrazyLambdas {
      * @return a function supplier
      */
     public static Supplier<IntUnaryOperator> nMultiplyFunctionSupplier(int n) {
-        return () -> (x) -> n * x;
+
     }
 
     /**
@@ -113,11 +113,7 @@ public class CrazyLambdas {
      * @return a thread supplier
      */
     public static Supplier<Thread> runningThreadSupplier(Runnable runnable) {
-        return () -> {
-            Thread thread = new Thread(runnable);
-            thread.start();
-            return thread;
-        };
+
     }
 
     /**
